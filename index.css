@@ -1,0 +1,45 @@
+.box {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.childbox {
+    width: 20vw;
+    /* border: 1px solid red; */
+    margin-left: 10vw;
+    margin-top: 10vh;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 20px;
+}
+
+.childbox img {
+    width: 20vw;
+}
+
+.childbox button {
+    margin-bottom: 4vh;
+}
+
+.childbox button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+@media screen and (max-width:600px) {
+    .box {
+    /* border: 1px solid black; */
+    display: block;
+    /* flex-wrap: wrap; */
+}   
+.childbox {
+    width: 80vw;
+}
+.childbox img {
+    width: 80vw;
+}
+.btn{
+    margin-bottom: 2vh;
+}
+
+}
